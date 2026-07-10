@@ -1,10 +1,3 @@
--- =========================================================
--- Base de datos: Trivia de Cultura General
--- =========================================================
-
-CREATE DATABASE IF NOT EXISTS trivia_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE trivia_db;
-
 -- Tabla de preguntas
 CREATE TABLE IF NOT EXISTS preguntas (
     id INT AUTO_INCREMENT PRIMARY KEY,
